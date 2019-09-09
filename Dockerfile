@@ -1,4 +1,4 @@
-FROM blang/latex:ctanbasic
+FROM blang/latex:ctanfull
 
 RUN apt-get update
 
