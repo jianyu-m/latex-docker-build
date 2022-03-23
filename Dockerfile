@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 RUN apt-get update
 
@@ -43,3 +43,5 @@ RUN tlmgr install IEEEtran relsize ifoddpage algorithm2e subfigure framed xstrin
 RUN tlmgr install multirow
 
 RUN tlmgr install upquote ulem
+
+RUN tlmgr install acmart
